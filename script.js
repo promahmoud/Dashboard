@@ -3,10 +3,10 @@ $(function () {
 	
     $('#side-nav').scroll(function () {
         if ($(this).scrollTop() >= 10) {
-            $('.arrow').fadeOut(600)
+            $('.arrow-nav').fadeOut(600)
             
         } else {
-            $('.arrow').fadeIn(600);
+            $('.arrow-nav').fadeIn(600);
         }
     });
     // tooltip
